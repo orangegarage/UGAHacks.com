@@ -1,22 +1,21 @@
 @charset "utf-8";
 
+
 @font-face {
-	font-family: 'Poppins';
-	src: url(../fonts/Poppins-Regular.ttf) format('truetype');
+	font-family: 'Lato', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+
 }
 
 @font-face {
-	font-family: 'Poppins';
-	src: url(../fonts/Poppins-Bold.ttf) format('truetype');
+	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Poppins';
-	src: url(../fonts/Poppins-Medium.ttf) format('truetype');
+	font-family: 'Lato', sans-serif;
 	font-weight: lighter;
 	font-style: normal;
 }
@@ -32,7 +31,9 @@ body, html {
 	margin: 0;
 	width: 100%;
 	text-align: center;
-	font-family: Poppins, Helvetica Neue, Helvetica, Arial, sans-serif;
+	color: #288156;
+	background-color: #1C1919;
+	font-family: Lato, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -62,7 +63,7 @@ h3 {
 }
 
 .active-nav {
-	border-bottom: 3px solid red;
+	border-bottom: 3px #288156;
 }
 
 h4 {
@@ -98,9 +99,10 @@ hr {
 }
 
 .button {
-	border: 3px solid red;
+	border: 3px solid #288156;
 	border-radius: 25px;
-	color: red;
+	color: #288156;
+	font-family: Lato, sans-serif;
 	font-size: 24px;
 	letter-spacing: 3px;
 	padding: 10px 20px;
@@ -109,8 +111,8 @@ hr {
 }
 
 .button:hover{
-	color: white;
-	background-color: red;
+	color: #625E5E;
+	background-color: #288156 ;
 }
 
 .page {
@@ -186,12 +188,12 @@ hr {
 	height: 80px;
 	position: fixed;
 	text-align: center;
-	background: white;
+	background: #1C1919;
 	transition: .5s;
 }
 
 #navbar a{
-	color: black;
+	color: #288156;
 	text-decoration: none;
 }
 
@@ -256,7 +258,7 @@ hr {
 }
 
 #footer {
-	background: white;
+	background: #1C1919;
 	border: thin gray;
 	min-height: 70px;
 	font-size: 24px;
